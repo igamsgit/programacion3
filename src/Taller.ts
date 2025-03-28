@@ -102,7 +102,7 @@ const students: Student[] = [{
 }];
 
 
- function calculate (students: Student[]){
+ function calculate (students: Student[]): { name: string; average: number }[] {	
     return students.map((Student) => ({
         name : Student.name,
         average : Student.califications.reduce((acc, curr) => curr + acc, 0)/Student.califications.length
