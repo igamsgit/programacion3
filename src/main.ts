@@ -129,15 +129,28 @@ function createUser(createUser: CreateUser):User{
     return newUser
 } */
 
-    import { electronicProducts } from "./Taller"
+   /* import { electronicProducts } from "./Taller1"
     
 console.table(electronicProducts)
 
-    import { pTotal } from "./Taller"
+    import { pTotal } from "./Taller1"
     
 console.log('Precio total de todos los productos de todas las categorias:', pTotal);
 
-import { result } from "./Taller"
+import { result } from "./Taller1"
 
-console.log(result);
+console.log(result);*/
+
+import { productos_disponibles } from "./Examen1";
+
+//console.log(productos_disponibles);
+
+
+import { mayor } from "./Examen1";
+
+//console.log(mayor);
+
+import { inventarioDescuento } from "./Examen1";
+
+console.log(inventarioDescuento);
     
