@@ -130,6 +130,26 @@ function createUser(createUser: CreateUser):User{
     return newUser
 } */
 Object.defineProperty(exports, "__esModule", { value: true });
+/* import { electronicProducts } from "./Taller1"
+ 
+console.table(electronicProducts)
+
+ import { pTotal } from "./Taller1"
+ 
+console.log('Precio total de todos los productos de todas las categorias:', pTotal);
+
+import { result } from "./Taller1"
+
+console.log(result);*/
+//import { productos_disponibles } from "./Examen1";
+//console.log(productos_disponibles);
+//import { mayor } from "./Examen1";
 //console.log(mayor);
-const Examen1_1 = require("./Examen1");
-console.log(Examen1_1.inventarioDescuento);
+//import { inventarioDescuento } from "./Examen1";
+//console.log(inventarioDescuento);
+//import { productosEscolares } from "./laboratorio1";
+//console.log(productosEscolares);
+//import { noStock } from "./laboratorio1";
+//console.log(noStock);
+const laboratorio1_1 = require("./laboratorio1");
+console.log(laboratorio1_1.rangoDeProductos);

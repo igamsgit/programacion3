@@ -141,16 +141,28 @@ import { result } from "./Taller1"
 
 console.log(result);*/
 
-import { productos_disponibles } from "./Examen1";
+//import { productos_disponibles } from "./Examen1";
 
 //console.log(productos_disponibles);
 
 
-import { mayor } from "./Examen1";
+//import { mayor } from "./Examen1";
 
 //console.log(mayor);
 
-import { inventarioDescuento } from "./Examen1";
+//import { inventarioDescuento } from "./Examen1";
 
-console.log(inventarioDescuento);
+//console.log(inventarioDescuento);
     
+//import { productosEscolares } from "./laboratorio1";
+
+//console.log(productosEscolares);
+
+//import { noStock } from "./laboratorio1";
+
+//console.log(noStock);
+
+import { rangoDeProductos } from "./laboratorio1";
+
+console.log( rangoDeProductos);
+

@@ -9,30 +9,26 @@ type Producto = {
 
 }
 
-const productos:Producto[] = [{
-
+const productos: Producto[] = [
+  {
     id: "01",
     nombre: "lavadora",
     precio: 250,
     stock: 100,
-
-},
-{
-
+  },
+  {
     id: "02",
     nombre: "nevera",
     precio: 350,
     stock: 50,
-
-},
-{
-
+  },
+  {
     id: "03",
     nombre: "laptop",
     precio: 500,
     stock: 0,
-
-},]
+  },
+];
 
 // stock mayor a 0
 export const productos_disponibles = productos.filter((producto)=>producto.stock > 0)
