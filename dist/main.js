@@ -151,5 +151,7 @@ console.log(result);*/
 //console.log(productosEscolares);
 //import { noStock } from "./laboratorio1";
 //console.log(noStock);
-const laboratorio1_1 = require("./laboratorio1");
-console.log(laboratorio1_1.rangoDeProductos);
+// import { rangoDeProductos } from "./laboratorio1";
+// console.log( rangoDeProductos);
+const practicaFunciones_1 = require("./practicaFunciones");
+console.log(practicaFunciones_1.filtrarproductos);

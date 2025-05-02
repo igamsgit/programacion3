@@ -129,6 +129,8 @@ function createUser(createUser: CreateUser):User{
     return newUser
 } */
 
+
+
    /* import { electronicProducts } from "./Taller1"
     
 console.table(electronicProducts)
@@ -162,7 +164,18 @@ console.log(result);*/
 
 //console.log(noStock);
 
-import { rangoDeProductos } from "./laboratorio1";
+// import { rangoDeProductos } from "./laboratorio1";
 
-console.log( rangoDeProductos);
+// console.log( rangoDeProductos);
 
+// import { filtrarproductos } from "./practicaFunciones";
+
+// console.log(filtrarproductos);
+
+
+import { sumar } from "./practicaFunciones"
+const resultado = sumar(1,2, (resultado)=>{
+    return resultado
+})
+
+console.log(resultado)
