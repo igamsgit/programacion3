@@ -1,4 +1,4 @@
-import { result } from './Taller1';
+
 // const nombre = (name: string,age:number): => {} // function flecha 
 // function nombre (name: string,age:number): number {} // funcion flecha con return
 
@@ -74,7 +74,7 @@ const products: Product[] = [
     ];
 
 function filtrar (product: Product){ // filtrar es una funcion que recibe un producto y devuelve un booleano
-    // return product.price > 1200; // devuelve true o false
+     // devuelve true o false
     return product.price > 1200;
 }
 
